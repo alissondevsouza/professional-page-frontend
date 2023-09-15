@@ -1,7 +1,11 @@
+import { HeroSection } from "./compnents/pages/home/hero-section";
+import { KnownTechs } from "./compnents/pages/known-techs";
+
 export default async function Home() {
   return (
     <>
-      <h1>Home Page</h1>
+      <HeroSection />
+      <KnownTechs />
     </>
   )
 }
